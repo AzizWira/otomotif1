@@ -1,0 +1,79 @@
+.banner-product{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.title-product{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #D61921;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.card-product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-top: 36px;
+}
+
+.card-product-car{
+    border: 1px solid #c4c4c4;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.card-product-car:hover{
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-product-car img{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #c4c4c4; */
+    border-radius: 10px;
+    aspect-ratio: 16/9;
+}
+
+.text-type-car{
+    font-family: 'Poppins';
+    color: #D61921;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.title-type-car{
+    display: flex;
+    margin-top: 8px;
+    gap: 5px;
+    color: #797979;
+    align-items: center;
+}
+
+.title-type-car p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #797979;
+}
+
+.card-promo{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 36px;
+}
+
+.card-image-end-product{
+    margin-top: 56px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-promo img:hover{
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+}

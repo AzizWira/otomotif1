@@ -1,0 +1,42 @@
+.img img{
+    width: 100%;
+}
+
+.title-head{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #D61921;
+}
+
+table{
+    border: 1px solid #c4c4c4;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.title-head-table{
+    background-color: #D61921;
+    width: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+    border-radius: 19px 19px 0 0;
+}
+
+.type-car{
+    background-color: #FFC8CA;
+    color: #4b4b4b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 100px;
+}
+
+.type-price-car{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #4b4b4b;
+    padding: 10px;
+}

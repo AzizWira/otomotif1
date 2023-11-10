@@ -1,221 +1,446 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .con-banner {
-    max-width: 1440px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .con-banner .img img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
-/*  */
+.image-slideshow {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  background-attachment: fixed;
+}
+
+.image img {
+  width: 100%;
+}
+
+.fade {
+  animation-name: inherit;
+}
 
 .container h1 {
-    color: #D61921;
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
+  color: #d61921;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin: 50px 0 30px 0;
 }
 
 .contact {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .contact .bio {
-    padding: 20px;
-    border-radius: 20px;
-    border: 1px solid #C4C4C4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 45%;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
 }
 
 .contact .bio .img {
-
-    max-width: 360px;
+  max-width: 360px;
 }
 
 .contact .bio .img img {
-    border: 1px solid #C4C4C4;
-    width: 100%;
-    border-radius: 10px;
-    height: auto;
+  border: 1px solid #c4c4c4;
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
 }
 
 .contact .bio .name {
-    color: #4B4B4B;
-    font-family: 'Poppins', sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #4b4b4b;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .contact .bio button {
-    border-radius: 10px;
-    background: #D61921;
-    color: #FFF;
-    font-family: 'Poppins', sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px;
+  border-radius: 10px;
+  background: #d61921;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
 }
 
 .contact .bio button .icon {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .contact .bio button:hover {
-    background: #B41618;
+  background: #b41618;
 }
 
 .contact .superiority {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    border: 1px solid #C4C4C4;
-    width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #c4c4c4;
+  width: 55%;
 }
 
 .contact .superiority h2 {
-    color: #4B4B4B;
-    font-family: 'Poppins', sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #4b4b4b;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .contact .superiority .text {
-    color: #797979;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  color: #797979;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .contact .superiority .text .icon {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .contact .superiority p {
-    color: #4B4B4B;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #4b4b4b;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .contact .superiority .con-sosmed {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .superiority .con-sosmed .box {
-    font-size: 30px;
-    width: 45px;
-    height: 45px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    cursor: pointer;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
 }
 
 .superiority .con-sosmed .box:nth-child(1) {
-    background: #19D665;
+  background: #19d665;
 }
 
 .superiority .con-sosmed .box:nth-child(2) {
-    background: #1992D6;
+  background: #1992d6;
 }
 
 .superiority .con-sosmed .box:nth-child(3) {
-    background: #FF5050;
+  background: #ff5050;
 }
 
 .superiority .con-sosmed .box:nth-child(1):hover {
-    background: #0EBD4D;
+  background: #0ebd4d;
 }
 
 .superiority .con-sosmed .box:nth-child(2):hover {
-    background: #0E7ABD;
+  background: #0e7abd;
 }
 
 .superiority .con-sosmed .box:nth-child(3):hover {
-    background: #E63F3F;
+  background: #e63f3f;
 }
 
 @media only screen and (max-width: 1050px) {
-    .container h1{
-        font-size: 36px;
-    }
+  .container h1 {
+    font-size: 36px;
+  }
 
-    .contact .bio button{
-        font-size: 24px;
-    }
+  .contact .bio button {
+    font-size: 24px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .container h1{
-        font-size: 30px;
-    }
+  .container h1 {
+    font-size: 30px;
+  }
 
-    .contact .bio button{
-        font-size: 20px;
-    }
+  .contact .bio button {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-    .contact{
-        flex-direction: column;
-        gap: 20px;
-    }
+  .contact {
+    flex-direction: column;
+    gap: 20px;
+  }
 
-    .contact .bio{
-        width: 100%;
-    }
+  .contact .bio {
+    width: 100%;
+  }
 
-    .contact .superiority{
-        width: 100%;
-    }
+  .contact .superiority {
+    width: 100%;
+  }
 
-    .container h1{
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
 
-    .contact .superiority p{
-        font-size: 18px;
-    }
+  .contact .superiority p {
+    font-size: 18px;
+  }
 
-    .contact .superiority .text{
-        font-size: 18px;
-    }
+  .contact .superiority .text {
+    font-size: 18px;
+  }
 }
+
+/* show produk */
+.con-show-product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.card-show-product {
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.card-show-product:hover {
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-show-product img {
+  width: 100%;
+  /* height: 150px; */
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+}
+
+.model-car {
+  font-family: "Poppins";
+  color: #d61921;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.desc-car {
+  display: flex;
+  margin-top: 8px;
+  gap: 5px;
+  color: #797979;
+  align-items: center;
+}
+
+.desc-car p {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #797979;
+}
+
+.desc-car .icon {
+  font-size: 26px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .model-car {
+    font-size: 22px;
+  }
+
+  .desc-car p {
+    font-size: 18px;
+  }
+
+  .desc-car .icon {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .con-show-product {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .model-car {
+    font-size: 20px;
+  }
+
+  .desc-car p {
+    font-size: 18px;
+  }
+
+  .desc-car .icon {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .con-show-product {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .model-car {
+    font-size: 18px;
+  }
+
+  .desc-car p {
+    font-size: 16px;
+  }
+
+  .desc-car .icon {
+    font-size: 18px;
+  }
+}
+
+.btn-see-more {
+  background-color: #d61921;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  margin-top: 36px;
+  border-radius: 10px;
+}
+
+.btn-see-more:hover {
+  background-color: #b41618;
+}
+
+/* end ahow produk */
+
+/* promo */
+.con-promo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-top: 56px;
+}
+
+.con-promo .img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .con-promo {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}
+
+/* end promo */
+
+/* about */
+
+.about {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.about .con {
+  display: flex;
+  gap: 20px;
+  width: 60%;
+}
+
+.about .con .img img {
+  width: 100%;
+  height: auto;
+}
+
+.about .text {
+  width: 40%;
+}
+
+.about .text h2 {
+  color: #D61921;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about .text p {
+  color: #797979;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .about {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about .con {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .about .text {
+    width: 100%;
+  }
+
+  .about .text h2 {
+    font-size: 24px;
+  }
+
+  .about .text p {
+    font-size: 18px;
+  }
+}
+/* end about */

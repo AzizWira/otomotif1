@@ -21,6 +21,54 @@ input:focus {
     outline: none;
 }
 
+.button-whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    -webkit-animation: bounce 0.75s infinite;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.209);
+    border-radius: 20px;
+}
+
+.btn-whatsapp-fixed{
+    background-color : #19d665;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.btn-whatsapp-fixed:hover{
+    background-color: #0ebd4d;
+}
+
+.btn-whatsapp-fixed .icon{
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-whatsapp-fixed .icon{
+        font-size: 35px;
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+transform: scale(1,1) translate(0px, 0px);
+}
+
+30%{
+transform: scale(1,0.8) translate(0px, 20px); 
+}
+
+75%{
+transform: scale(1,1.1) translate(0px, -15px); 
+}
+
+100% {
+transform: scale(1,1) translate(0px, 0px);
+}
+}
+
 /* navbar */
 
 nav {

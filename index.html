@@ -11,7 +11,7 @@
       name="description"
       content="Jawa Tengah. Toyota Nasmoco Jateng. PROMO BULAN INI. Pelayanan marketing yang cepat dan siap 24 jam; Persyaratan bisa disesuaikan; Bonus Melimpah; Bisa cash maupun kredit"
     />
-    <link rel="icon" href="assets/logo-navbar.svg" />
+    <link rel="icon" href="assets/logo-toyota-rev.svg" />
 
     <!-- icon -->
     <link
@@ -25,7 +25,7 @@
     <nav>
       <div class="wrapper-nav">
         <div class="logo">
-          <img src="./assets/logo-navbar.svg" alt="" class="logo-img" />
+          <img src="./assets/logo-nav.svg" alt="" class="logo-img" />
         </div>
         <input type="radio" name="slider" id="menu-btn-nav" />
         <input type="radio" name="slider" id="close-btn-nav" />
@@ -34,8 +34,8 @@
             ><i class="fas fa-times"></i
           ></label>
           <li><a href="index.html" class="active">Beranda</a></li>
-          <li><a href="">Produk</a></li>
-          <li><a href="">Daftar Harga</a></li>
+          <li><a href="pages/product.html">Produk</a></li>
+          <li><a href="pages/pricelist.html">Daftar Harga</a></li>
           <li><a href="pages/gallery.html">Galeri</a></li>
           <li><a href="pages/contact.html">Kontak</a></li>
         </ul>
@@ -51,10 +51,36 @@
       </div>
     </nav>
 
-    <div class="con-banner">
-      <div class="img">
-        <img src="assets/galeri/toyota-agya.jpg" alt="foto-toyota-fortuner" />
+    <div class="image-slideshow">
+      <div class="image fade">
+        <img src="assets/banner/banner-1.svg" alt="gambar toyota" />
       </div>
+
+      <div class="image fade">
+        <img src="assets/banner/banner-2.svg" alt="gambar toyota" />
+      </div>
+
+      <div class="image fade">
+        <img src="assets/banner/banner-3.svg" alt="gambar toyota" />
+      </div>
+
+      <div class="image fade">
+        <img src="assets/banner/banner-4.svg" alt="gambar toyota" />
+      </div>
+
+      <div class="image fade">
+        <img src="assets/banner/banner-5.svg" alt="gambar toyota" />
+      </div>
+
+      <div class="image fade">
+        <img src="assets/banner/banner-6.svg" alt="gambar toyota" />
+      </div>
+    </div>
+
+    <div class="button-whatsapp">
+      <button class="btn-whatsapp-fixed">
+        <iconify-icon icon="mdi:whatsapp" class="icon"></iconify-icon>
+      </button>
     </div>
 
     <div class="container">
@@ -105,7 +131,10 @@
               <iconify-icon icon="mdi:whatsapp" class="icon"></iconify-icon>
             </div>
             <div class="box">
-              <iconify-icon icon="ant-design:facebook-outlined" class="icon"></iconify-icon>
+              <iconify-icon
+                icon="ant-design:facebook-outlined"
+                class="icon"
+              ></iconify-icon>
             </div>
             <div class="box">
               <iconify-icon icon="uil:instagram" class="icon"></iconify-icon>
@@ -113,7 +142,89 @@
           </div>
         </div>
       </div>
+      <div class="con-show-product" id="con-show-product"></div>
+
+      <button
+        class="btn-see-more"
+        onclick="window.location.href='pages/product.html'"
+      >
+        Lihat Produk Lebih Banyak
+      </button>
+
+      <h1 class="title-promo">PROMO BULAN INI</h1>
+      <div class="con-promo">
+        <div class="img">
+          <img src="assets/promo/img-promo1.svg" alt="PROMO TOYOTA 2023" />
+        </div>
+        <div class="img">
+          <img src="assets/promo/img-promo2.svg" alt="PROMO TOYOTA 2023" />
+        </div>
+        <div class="img">
+          <img src="assets/promo/img-promo3.svg" alt="PROMO TOYOTA 2023" />
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="con">
+          <div class="img">
+            <img src="assets/img-assets-toyota.svg" alt="" />
+          </div>
+          <div class="img">
+            <img src="assets/img-asset-toyota2.svg" alt="" />
+          </div>
+        </div>
+        <div class="text">
+          <h2>Tentang Toyota Nasmoco</h2>
+          <p>
+            Toyota Nasmoco merupakan Authorized Toyota Dealer atau Agen tunggal
+            pemegang merek Toyota Indonesia khususnya di Jawa Tengah dan Daerah
+            Istimewa Yogyakarta, selain penjulana Nasmoco Toyota juga melayani
+            Perbaikan Penjualan Mobil Informasi Bengkel After sales
+          </p>
+        </div>
+      </div>
     </div>
-    <script src="app.js"></script>
+
+    <footer>
+      <div class="content-footer">
+        <div class="footer-left">
+          <div class="img">
+            <img
+              src="../assets/logo-toyota-rev.svg"
+              alt="logo toyota"
+              width="200px"
+            />
+          </div>
+          <p>TOYOTA NASMOCO JATENG</p>
+        </div>
+        <div class="footer-right">
+          <div class="icon-footer">
+            <iconify-icon icon="mdi:whatsapp" class="icon"></iconify-icon>
+          </div>
+          <div class="icon-footer">
+            <iconify-icon
+              icon="ant-design:facebook-outlined"
+              class="icon"
+            ></iconify-icon>
+          </div>
+          <div class="icon-footer">
+            <iconify-icon icon="uil:instagram" class="icon"></iconify-icon>
+          </div>
+        </div>
+      </div>
+      <div class="line-footer"></div>
+      <div class="copyright">
+        <p>
+          © 2023 Copyright Toyota Nacmoco Jateng | Creat By
+          <span
+            ><a
+              href="https://instagram.com/fothinkdigitalstudio?igshid=NzZlODBkYWE4Ng=="
+              >Fothink Digital Studio</a
+            ></span
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>

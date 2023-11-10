@@ -23,6 +23,7 @@ const data_show_product = [
     name: "ALPHARD",
     tipe: "MPV",
     cc: "2500 cc",
+    price: "1.382.000.000"
   },
   {
     image: "assets/mobil-fortuner.svg",
@@ -30,6 +31,7 @@ const data_show_product = [
     name: "FORTUNER",
     tipe: "SUV",
     cc: "2700 cc",
+    price: "570.000.000"
   },
   {
     image: "assets/mobil-innova-zenix.svg",
@@ -37,6 +39,7 @@ const data_show_product = [
     name: "INNOVA ZENIX",
     tipe: "MPV",
     cc: "1987 cc",
+    price: "433.000.000"
   },
   {
     image: "assets/mobil-innova.svg",
@@ -44,6 +47,7 @@ const data_show_product = [
     name: "INNOVA",
     tipe: "MPV",
     cc: "2000 cc",
+    price: "385.000.000"
   },
   {
     image: "assets/mobil-rush.svg",
@@ -51,6 +55,7 @@ const data_show_product = [
     name: "RUSH",
     tipe: "SUV",
     cc: "1496 cc",
+    price: "298.000.000"
   },
   {
     image: "assets/mobil-yaris-cross.svg",
@@ -58,6 +63,7 @@ const data_show_product = [
     name: "YARIS CROSS",
     tipe: "Hatchback",
     cc: "1500 cc",
+    price: "353.500.000"
   },
   {
     image: "assets/mobil-yaris.svg",
@@ -65,6 +71,7 @@ const data_show_product = [
     name: "YARIS",
     tipe: "Hatchback",
     cc: "1496 cc",
+    price: "349.000.000"
   },
   {
     image: "assets/mobil-agya.svg",
@@ -72,6 +79,7 @@ const data_show_product = [
     name: "AGYA",
     tipe: "Hatchback",
     cc: "1200 cc",
+    price: "171.000.000"
   },
 ];
 
@@ -86,10 +94,11 @@ const fillShowProduct = data_show_product.map(
     class="img-car"
   />
   <p class="model-car">${data.name}</p>
+  <p class="price-car">Mulai : ${data.price}</p>
   <div class="desc-car">
     <iconify-icon icon="mdi:car-outline" class="icon"></iconify-icon>
     <p>${data.tipe} | ${data.cc}</p>
-  </div>
+    </div>
 </div>
   `
 );

@@ -1,27 +1,35 @@
 const data_image = [
     {
-        image: '../assets/galeri/toyota-alphard.jpg',
+        image: '../assets/galeri/mobil-toyota-alphard.svg',
         alt: 'Toyota Alphard'
     },
     {
-        image: '../assets/galeri/toyota-agya.jpg',
-        alt: 'Toyota Agya'
-    },
-    {
-        image: '../assets/galeri/toyota-cayla.jpg',
-        alt: 'Toyota Cayla'
-    },
-    {
-        image: '../assets/galeri/toyota-sienta.jpg',
-        alt: 'Toyota Sienta'
-    },
-    {
-        image: '../assets/galeri/toyota-fortuner.jpg',
+        image: '../assets/galeri/galery-fortuner.svg',
         alt: 'Toyota Fortuner'
     },
     {
-        image: '../assets/galeri/toyota-fortuner-gr.jpg',
-        alt: 'Toyota Fortuner GR'
+        image: '../assets/galeri/galery-yaris-cross.svg',
+        alt: 'Toyota Yaris Cross'
+    },
+    {
+        image: '../assets/galeri/galery-calya.svg',
+        alt: 'Toyota Calya'
+    },
+    {
+        image: '../assets/galeri/galery-agya.svg',
+        alt: 'Toyota Agya'
+    },
+    {
+        image: '../assets/galeri/galery-yaris.svg',
+        alt: 'Toyota Yaris'
+    },
+    {
+        image: '../assets/galeri/galery-innova-zenix.svg',
+        alt: 'Toyota Innova Zenix'
+    },
+    {
+        image: '../assets/galeri/galery-innova.svg',
+        alt: 'Toyota Innova '
     }
 ];
 

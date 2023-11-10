@@ -8,11 +8,13 @@
     font-weight: 700;
     line-height: normal;
     text-align: center;
+    margin-top: 56px;
 }
 
 .contact {
     display: flex;
     gap: 20px;
+    margin-top: 36px;
 }
 
 .contact .bio {

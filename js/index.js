@@ -18,7 +18,7 @@ function displayImages() {
 
 const data_show_product = [
   {
-    image: "assets/mobil-alphard.svg",
+    image: "assets/mobil-alphard.jpg",
     alt: "toyota alphard",
     name: "ALPHARD",
     tipe: "MPV",
@@ -26,7 +26,7 @@ const data_show_product = [
     price: "Rp1.382 Milliar"
   },
   {
-    image: "assets/mobil-fortuner.svg",
+    image: "assets/mobil-fortuner.jpg",
     alt: "toyota fortuner",
     name: "FORTUNER",
     tipe: "SUV",
@@ -34,7 +34,7 @@ const data_show_product = [
     price: "Rp570 Juta"
   },
   {
-    image: "assets/mobil-innova-zenix.svg",
+    image: "assets/mobil-innova-zenix.jpg",
     alt: "toyota innova zenix",
     name: "INNOVA ZENIX",
     tipe: "MPV",
@@ -42,7 +42,7 @@ const data_show_product = [
     price: "Rp433 Juta"
   },
   {
-    image: "assets/mobil-innova.svg",
+    image: "assets/mobil-innova.jpg",
     alt: "toyota innova",
     name: "INNOVA",
     tipe: "MPV",
@@ -50,7 +50,7 @@ const data_show_product = [
     price: "Rp385 Juta"
   },
   {
-    image: "assets/mobil-rush.svg",
+    image: "assets/mobil-rush.jpg",
     alt: "toyota rush",
     name: "RUSH",
     tipe: "SUV",
@@ -58,7 +58,7 @@ const data_show_product = [
     price: "Rp298 Juta"
   },
   {
-    image: "assets/mobil-yaris-cross.svg",
+    image: "assets/mobil-yaris-cross.jpg",
     alt: "toyota yaris cross",
     name: "YARIS CROSS",
     tipe: "Hatchback",
@@ -66,7 +66,7 @@ const data_show_product = [
     price: "Rp353 Juta"
   },
   {
-    image: "assets/mobil-yaris.svg",
+    image: "assets/mobil-yaris.jpg",
     alt: "toyota yaris",
     name: "YARIS",
     tipe: "Hatchback",
@@ -74,7 +74,7 @@ const data_show_product = [
     price: "Rp349 Juta"
   },
   {
-    image: "assets/mobil-agya.svg",
+    image: "assets/mobil-agya.jpg",
     alt: "toyota agya",
     name: "AGYA",
     tipe: "Hatchback",

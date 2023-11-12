@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.banner-product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container h1 {
+    color: #d61921;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+@media only screen and (max-width: 1050px) {
+    .container h1 {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+/*  */
+
+.detail {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.detail-left {
+    width: 70%;
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+}
+
+.detail-right {
+    padding: 20px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+}
+
+.detail-left .img-preview {
+    max-width: 600px;
+    margin: 0 60px;
+}
+
+.detail-left .img-preview p {
+    color: #D61921;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.detail-left .img-preview img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.detail-left .option-color {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.option-color .img {
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.detail-left .option-color img {
+    height: auto;
+    /* width: 100%; */
+    width: 150px;
+}
+
+.detail-right h3 {
+    color: #4B4B4B;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.detail-right p {
+    display: flex;
+    justify-content: space-between;
+    color: #797979;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+/*  */
+
+.interior{
+    margin-bottom: 60px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.interior .img img{
+    width: 100%;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.interior .img img:hover{
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 900px) {
+    .interior{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .interior{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -90,7 +90,7 @@ const productContainer = document.getElementById("productCar");
 
 const fillProduct = data_product.map(
   (data) => `
-    <div class="card-product-car" >
+    <div class="card-product-car" onclick="window.location.href = '../pageDetail/detail-alphard.html';">
         <img src="${data.image}"
             alt="${data.alt}"
             class="img-car"

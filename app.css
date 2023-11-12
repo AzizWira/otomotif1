@@ -362,6 +362,78 @@ footer .content-footer{
         flex-direction: column;
         align-items: center;
     }
+}
 
+/* table */
 
+.container-pricelist{
+    overflow-x: auto;
+}
+
+.title-table {
+    border-radius: 20px 20px 0px 0px;
+    background: #D61921;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    table-layout: fixed;
+}
+
+thead {
+    background-color: #FFC8CA;
+}
+
+th {
+    padding: 8px;
+    text-align: center;
+    width: 33%;
+    color: #4B4B4B;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+td {
+    padding: 8px;
+    width: 33%;
+    color: #4B4B4B;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+td:nth-child(2), td:nth-child(3) {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.content-pricelist .image-pricelist{
+    width: 100%;
+    height: auto;
+    margin-top: 56px;
+}
+
+@media only screen and (max-width: 550px) {
+    th, td{
+        width: 150px;
+    }
 }

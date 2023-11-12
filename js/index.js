@@ -10,11 +10,11 @@ function displayImages() {
   if (index > images.length) {
     index = 1;
   }
-  images[index-1].style.display = "block";
-  setTimeout(displayImages, 3000); 
+  images[index - 1].style.display = "block";
+  setTimeout(displayImages, 3000);
 }
 
-// 
+//
 
 const data_show_product = [
   {
@@ -23,7 +23,8 @@ const data_show_product = [
     name: "ALPHARD",
     tipe: "MPV",
     cc: "2500 cc",
-    price: "Rp1.382 Milliar"
+    price: "Rp1.382 Milliar",
+    src: "pageDetail/detail-alphard.html",
   },
   {
     image: "assets/mobil-fortuner.jpg",
@@ -31,7 +32,8 @@ const data_show_product = [
     name: "FORTUNER",
     tipe: "SUV",
     cc: "2700 cc",
-    price: "Rp570 Juta"
+    price: "Rp570 Juta",
+    src: "pageDetail/detail-fortuner.html",
   },
   {
     image: "assets/mobil-innova-zenix.jpg",
@@ -39,7 +41,8 @@ const data_show_product = [
     name: "INNOVA ZENIX",
     tipe: "MPV",
     cc: "1987 cc",
-    price: "Rp433 Juta"
+    price: "Rp433 Juta",
+    src: "pageDetail/detail-innovaZenix.html",
   },
   {
     image: "assets/mobil-innova.jpg",
@@ -47,7 +50,8 @@ const data_show_product = [
     name: "INNOVA",
     tipe: "MPV",
     cc: "2000 cc",
-    price: "Rp385 Juta"
+    price: "Rp385 Juta",
+    src: "pageDetail/detail-innova.html",
   },
   {
     image: "assets/mobil-rush.jpg",
@@ -55,7 +59,8 @@ const data_show_product = [
     name: "RUSH",
     tipe: "SUV",
     cc: "1496 cc",
-    price: "Rp298 Juta"
+    price: "Rp298 Juta",
+    src: "pageDetail/detail-rush.html",
   },
   {
     image: "assets/mobil-yaris-cross.jpg",
@@ -63,7 +68,8 @@ const data_show_product = [
     name: "YARIS CROSS",
     tipe: "Hatchback",
     cc: "1500 cc",
-    price: "Rp353 Juta"
+    price: "Rp353 Juta",
+    src: "pageDetail/detail-yarisCross.html",
   },
   {
     image: "assets/mobil-yaris.jpg",
@@ -71,7 +77,8 @@ const data_show_product = [
     name: "YARIS",
     tipe: "Hatchback",
     cc: "1496 cc",
-    price: "Rp349 Juta"
+    price: "Rp349 Juta",
+    src: "pageDetail/detail-yaris.html",
   },
   {
     image: "assets/mobil-agya.jpg",
@@ -79,7 +86,8 @@ const data_show_product = [
     name: "AGYA",
     tipe: "Hatchback",
     cc: "1200 cc",
-    price: "Rp171 Juta"
+    price: "Rp171 Juta",
+    src: "pageDetail/detail-agya.html",
   },
 ];
 
@@ -87,7 +95,9 @@ const showProductContainer = document.getElementById("con-show-product");
 
 const fillShowProduct = data_show_product.map(
   (data) => `
-  <div class="card-show-product">
+  <div class="card-show-product" 
+  onclick="window.location.href='${data.src}'"
+  >
   <img
     src="${data.image}"
     alt="${data.alt}"

@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detail Product | Dealer Toyota Nasmoco Jawa Tengah</title>
+    <title>Dealer Toyota Nasmoco Jawa Tengah</title>
     <link rel="stylesheet" href="../app.css" />
-    <link rel="stylesheet" href="../css/product.css" />
+    <link rel="stylesheet" href="../css/detail-product.css" />
 
     <meta
       name="description"
@@ -19,18 +19,6 @@
     />
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <!--  -->
-    <meta
-      property="og:title"
-      content="Detail Product | Dealer Toyota Nasmoco Jawa Tengah"
-    />
-    <meta
-      property="og:description"
-      content="Jawa Tengah. Toyota Nasmoco Jateng. PROMO BULAN INI. Pelayanan marketing yang cepat dan siap 24 jam; Persyaratan bisa disesuaikan; Bonus Melimpah; Bisa cash maupun kredit"
-    />
-    <meta
-      property="og:image"
-      content="https://azizwira.github.io/otomotif1/assets/promo/img-promo1.jpg"
-    />
   </head>
   <body>
     <nav>
@@ -45,10 +33,10 @@
             ><i class="fas fa-times"></i
           ></label>
           <li><a href="../index.html">Beranda</a></li>
-          <li><a href="product.html" class="active">Produk</a></li>
-          <li><a href="pricelist.html">Daftar Harga</a></li>
-          <li><a href="gallery.html">Galeri</a></li>
-          <li><a href="contact.html">Kontak</a></li>
+          <li><a href="../pages/product.html" class="active">Produk</a></li>
+          <li><a href="../pages/pricelist.html">Daftar Harga</a></li>
+          <li><a href="../pages/gallery.html">Galeri</a></li>
+          <li><a href="../pages/contact.html">Kontak</a></li>
         </ul>
         <div class="nav-right">
           <label for="menu-btn-nav" class="btn menu-btn-nav"
@@ -76,68 +64,53 @@
     </div>
 
     <div class="banner-product">
-      <img src="../assets/banner/banner-product.jpg" alt="gambar toyota" />
+      <img src="../assets/banner/banner-fortuner.jpg" alt="gambar toyota" />
     </div>
     <div class="container">
-      <h1 class="title-promo">PROMO BULAN INI</h1>
-      <div class="con-promo">
-        <div class="img">
-          <img src="../assets/promo/img-promo1.jpg" alt="PROMO TOYOTA 2023" />
+      <h1>Toyota Fortuner</h1>
+      <div class="detail">
+        <div class="detail-left">
+          <div class="img-preview">
+            <img
+              src="../assets/detailproduct/detail-fortuner/superWhite.png"
+              alt="Toyota Alphard - Super White"
+              id="previewImage"
+            />
+            <p class="description-priview" id="previewDesc">Super White</p>
+          </div>
+          <div class="option-color" id="optionColor"></div>
         </div>
-        <div class="img">
-          <img src="../assets/promo/img-promo2.jpg" alt="PROMO TOYOTA 2023" />
-        </div>
-        <div class="img">
-          <img src="../assets/promo/img-promo3.jpg" alt="PROMO TOYOTA 2023" />
+
+        <div class="detail-right">
+          <h3>Spesifikasi</h3>
+          <p><span>Penumpang</span><span>7-Seat</span></p>
+          <p><span>Tipe</span><span>SUV</span></p>
+          <p><span>Silinder</span><span>2700 cc</span></p>
+          <p><span>Mesin</span><span>DOHC, VVT-i</span></p>
+          <h3>Dimensi</h3>
+          <p><span>Panjang</span><span>4795</span></p>
+          <p><span>Lebar</span><span>1855</span></p>
+          <p><span>Tinggi</span><span>1835</span></p>
         </div>
       </div>
 
-      <h1>PRODUK</h1>
-      <div class="con-search-filter">
-        <!-- <form class="search">
-          <div class="button" id="search-button">
-            <iconify-icon icon="charm:search" width="20"></iconify-icon>
-          </div>
-          <input type="text" id="search-input" placeholder="Cari..." />
-        </form> -->
-
-        <div class="con-filter">
-          <select name="filter-produk" id="filter-produk" class="filter-produk">
-            <option hidden>Cari Cepat Disini</option>
-            <option value="all">Semua</option>
-            <option value="alphard">Alphard</option>
-            <option value="fortuner">Fortuner</option>
-            <option value="innovaZenix">Innova Zenix</option>
-            <option value="innova">Innova</option>
-            <option value="rush">Rush</option>
-            <option value="yarisCross">Yaris Cross</option>
-            <option value="yaris">Yaris</option>
-            <option value="agya">Agya</option>
-            <option value="veloz">Veloz</option>
-            <option value="avanza">Avanza</option>
-            <option value="raize">Raize</option>
-            <option value="calya">Calya</option>
-          </select>
-        </div>
-      </div>
-      <div class="con-card-product" id="productCar"></div>
-
-      <div class="con-image-end-product">
-        <div class="img1">
-          <div class="img">
-            <img src="../assets/img-assets-toyota.jpg" alt="gambar toyota" />
-          </div>
-          <div class="img">
-            <img src="../assets/img-asset-toyota2.jpg" alt="gambar toyota" />
-          </div>
-        </div>
-        <div class="img2">
-          <div class="img">
-            <img src="../assets/img-asset-toyota3.jpg" alt="" />
-          </div>
-        </div>
+      <h1>Interior Mobil</h1>
+      <div class="interior" id="interior"></div>
+      <div class="title-table">Daftar Harga</div>
+      <div class="container-pricelist">
+        <table>
+          <thead>
+            <tr>
+              <th>Alphard (New)</th>
+              <th>Harga Manual (M/T)</th>
+              <th>Harga Otomatis (A/T)</th>
+            </tr>
+          </thead>
+          <tbody id="price"></tbody>
+        </table>
       </div>
     </div>
+
     <footer>
       <div class="content-footer">
         <div class="footer-left">
@@ -182,6 +155,6 @@
       </div>
     </footer>
 
-    <script src="../js/product.js"></script>
+    <script src="../js/detailProduct/fortuner.js"></script>
   </body>
 </html>

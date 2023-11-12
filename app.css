@@ -367,7 +367,7 @@ footer .content-footer{
 /* table */
 
 .container-pricelist{
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 
 .title-table {

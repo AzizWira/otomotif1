@@ -88,3 +88,7 @@ const priceAlphard = price_alphard.map(
 );
 
 tablePriceAlphard.innerHTML = priceAlphard.join("");
+
+// end alphard
+
+

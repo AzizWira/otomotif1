@@ -2,8 +2,12 @@
 
 .img-banner img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
+}
+
+.container-pricelist{
+    overflow-x: scroll;
 }
 
 .container h1 {
@@ -56,6 +60,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     border: 1px solid #ddd;
+    table-layout: fixed;
 }
 
 thead {
@@ -76,7 +81,6 @@ th {
 
 td {
     padding: 8px;
-    /* border: 1px solid #ddd; */
     width: 33%;
     color: #4B4B4B;
     font-family: "Poppins", sans-serif;
@@ -98,4 +102,10 @@ tr:nth-child(even) {
     width: 100%;
     height: auto;
     margin-top: 56px;
+}
+
+@media only screen and (max-width: 550px) {
+    th, td{
+        width: 150px;
+    }
 }

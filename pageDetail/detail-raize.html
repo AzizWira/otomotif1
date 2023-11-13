@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dealer Toyota Nasmoco Jawa Tengah</title>
+    <link rel="stylesheet" href="../app.css" />
+    <link rel="stylesheet" href="../css/detail-product.css" />
+
+    <meta
+      name="description"
+      content="Jawa Tengah. Toyota Nasmoco Jateng. PROMO BULAN INI. Pelayanan marketing yang cepat dan siap 24 jam; Persyaratan bisa disesuaikan; Bonus Melimpah; Bisa cash maupun kredit"
+    />
+    <link rel="icon" href="../assets/logo-toyota-rev.svg" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <!--  -->
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper-nav">
+        <div class="logo">
+          <img src="../assets/logo-nav.svg" alt="" class="logo-img" />
+        </div>
+        <input type="radio" name="slider" id="menu-btn-nav" />
+        <input type="radio" name="slider" id="close-btn-nav" />
+        <ul class="nav-links">
+          <label for="close-btn-nav" class="btn close-btn-nav"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="../index.html">Beranda</a></li>
+          <li><a href="../pages/product.html" class="active">Produk</a></li>
+          <li><a href="../pages/pricelist.html">Daftar Harga</a></li>
+          <li><a href="../pages/gallery.html">Galeri</a></li>
+          <li><a href="../pages/contact.html">Kontak</a></li>
+        </ul>
+        <div class="nav-right">
+          <label for="menu-btn-nav" class="btn menu-btn-nav"
+            ><iconify-icon
+              icon="pajamas:hamburger"
+              style="color: #c58940"
+              width="30"
+            ></iconify-icon
+          ></label>
+        </div>
+      </div>
+    </nav>
+
+    <div class="button-whatsapp">
+      <button
+        class="btn-whatsapp-fixed"
+        onclick="window.open('https://wa.me/6282220451927', '_blank')"
+      >
+        <iconify-icon
+          icon="mdi:whatsapp"
+          class="icon"
+          width="60px"
+        ></iconify-icon>
+      </button>
+    </div>
+
+    <div class="banner-product">
+      <img src="../assets/banner/banner-raize.jpg" alt="gambar toyota" />
+    </div>
+    <div class="container">
+      <h1>RAIZE</h1>
+      <div class="detail">
+        <div class="detail-left">
+          <div class="img-preview">
+            <img
+              src="../assets/detailproduct/detail-raize/black.jpg"
+              alt="Toyota Raize - Black"
+              id="previewImage"
+            />
+            <p class="description-priview" id="previewDesc">Black</p>
+          </div>
+          <div class="option-color" id="optionColor"></div>
+        </div>
+
+        <div class="detail-right">
+          <h3>Spesifikasi</h3>
+          <p><span>Penumpang</span><span>5-Seat</span></p>
+          <p><span>Tipe</span><span>SUV</span></p>
+          <p><span>Silinder</span><span>998 cc</span></p>
+          <p><span>Mesin</span><span>DOHC Dual VVT-i</span></p>
+          <h3>Dimensi</h3>
+          <p><span>Panjang</span><span>4030</span></p>
+          <p><span>Lebar</span><span>1710</span></p>
+          <p><span>Tinggi</span><span>1635</span></p>
+        </div>
+      </div>
+
+      <h1>Interior Mobil</h1>
+      <div class="interior" id="interior"></div>
+      <div class="title-table">Daftar Harga</div>
+      <div class="container-pricelist">
+        <table>
+          <thead>
+            <tr>
+              <th>Raize</th>
+              <th>Harga Manual (M/T)</th>
+              <th>Harga Otomatis (A/T)</th>
+            </tr>
+          </thead>
+          <tbody id="price"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer>
+      <div class="content-footer">
+        <div class="footer-left">
+          <div class="img">
+            <img
+              src="../assets/logo-toyota-rev.svg"
+              alt="logo toyota"
+              width="150px"
+            />
+          </div>
+          <p>TOYOTA NASMOCO JATENG</p>
+        </div>
+        <div class="footer-right">
+          <div
+            class="icon-footer"
+            onclick="window.open('https://wa.me/6282220451927', '_blank')"
+          >
+            <iconify-icon icon="mdi:whatsapp" class="icon"></iconify-icon>
+          </div>
+          <div class="icon-footer">
+            <iconify-icon
+              icon="ant-design:facebook-outlined"
+              class="icon"
+            ></iconify-icon>
+          </div>
+          <div class="icon-footer">
+            <iconify-icon icon="uil:instagram" class="icon"></iconify-icon>
+          </div>
+        </div>
+      </div>
+      <div class="line-footer"></div>
+      <div class="copyright">
+        <p>
+          © 2023 Copyright Toyota Nasmoco Jateng | Created By
+          <span
+            ><a
+              href="https://instagram.com/fothinkdigitalstudio?igshid=NzZlODBkYWE4Ng=="
+              >Fothink Digital Studio</a
+            ></span
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="../js/detailProduct/raize.js"></script>
+  </body>
+</html>

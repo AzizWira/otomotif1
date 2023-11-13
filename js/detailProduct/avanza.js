@@ -73,6 +73,9 @@ const interior = [
   {
     image: "../assets/interior/interior-avanza/interior8.jpg",
   },
+  {
+    image: "../assets/interior/interior-avanza/interior9.jpg",
+  },
 ];
 
 const conInterior = document.getElementById("interior");

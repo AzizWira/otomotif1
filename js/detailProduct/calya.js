@@ -22,12 +22,12 @@ const detail = [
   },
   {
     image: "../assets/detailproduct/detail-calya/red.png",
-    color: "Merah",
+    color: "Red (Spot Order*)",
     alt: "Toyota Calya - Merah",
   },
   {
     image: "../assets/detailproduct/detail-calya/orangeMetalic.png",
-    color: "Orange Metalic",
+    color: "Orange Metalic (Spot Order*)",
     alt: "Toyota Calya - Orange Metalic",
   },
   {

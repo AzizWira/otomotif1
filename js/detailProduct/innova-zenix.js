@@ -69,6 +69,9 @@ const interior = [
   {
     image: "../assets/interior/interior-innova-zenix/interior8.jpg",
   },
+  {
+    image: "../assets/interior/interior-innova-zenix/interior9.jpg",
+  },
 ];
 
 const conInterior = document.getElementById("interior");

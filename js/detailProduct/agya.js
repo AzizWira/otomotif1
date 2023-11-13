@@ -77,6 +77,9 @@ const interior = [
   },
   {
     image: "../assets/interior/interior-agya/interior8.jpg",
+  },
+  {
+    image: "../assets/interior/interior-agya/interior9.jpg",
   }
 ];
 

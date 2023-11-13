@@ -6,7 +6,7 @@ const detail = [
   },
   {
     image: "../assets/detailproduct/detail-fortuner/attitudeBlack.png",
-    color: "Hitam Attitude",
+    color: "Black Attitude",
     alt: "Toyota Alphard - Hitam Attitude",
   },
   {
@@ -16,7 +16,7 @@ const detail = [
   },
   {
     image: "../assets/detailproduct/detail-fortuner/platinumWhitePearl.png",
-    color: "Platinum White Pearl",
+    color: "Platinum White Pearl Attitude Black",
     alt: "Toyota Alphard - Platinum White Pearl",
   },
   {
@@ -72,6 +72,9 @@ const interior = [
   },
   {
     image: "../assets/interior/interior-fortuner/interior8.jpg",
+  },
+  {
+    image: "../assets/interior/interior-fortuner/interior9.jpg",
   },
 ];
 

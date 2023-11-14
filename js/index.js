@@ -24,7 +24,7 @@ const data_show_product = [
     tipe: "MPV",
     cc: "2500 cc",
     price: "Rp1.382 Milliar",
-    src: "pageDetail/detail-alphard.html",
+    src: "/detail-alphard",
   },
   {
     image: "assets/mobil-fortuner.jpg",
@@ -33,7 +33,7 @@ const data_show_product = [
     tipe: "SUV",
     cc: "2700 cc",
     price: "Rp570 Juta",
-    src: "pageDetail/detail-fortuner.html",
+    src: "/detail-fortuner",
   },
   {
     image: "assets/mobil-innova-zenix.jpg",
@@ -42,7 +42,7 @@ const data_show_product = [
     tipe: "MPV",
     cc: "1987 cc",
     price: "Rp433 Juta",
-    src: "pageDetail/detail-innovaZenix.html",
+    src: "/detail-innovaZenix",
   },
   {
     image: "assets/mobil-innova.jpg",
@@ -51,7 +51,7 @@ const data_show_product = [
     tipe: "MPV",
     cc: "2000 cc",
     price: "Rp385 Juta",
-    src: "pageDetail/detail-innova.html",
+    src: "/detail-innova",
   },
   {
     image: "assets/mobil-rush.jpg",
@@ -60,7 +60,7 @@ const data_show_product = [
     tipe: "SUV",
     cc: "1496 cc",
     price: "Rp298 Juta",
-    src: "pageDetail/detail-rush.html",
+    src: "/detail-rush",
   },
   {
     image: "assets/mobil-yaris-cross.jpg",
@@ -69,7 +69,7 @@ const data_show_product = [
     tipe: "Hatchback",
     cc: "1500 cc",
     price: "Rp353 Juta",
-    src: "pageDetail/detail-yarisCross.html",
+    src: "/detail-yarisCross",
   },
   {
     image: "assets/mobil-yaris.jpg",
@@ -78,7 +78,7 @@ const data_show_product = [
     tipe: "Hatchback",
     cc: "1496 cc",
     price: "Rp349 Juta",
-    src: "pageDetail/detail-yaris.html",
+    src: "/detail-yaris",
   },
   {
     image: "assets/mobil-agya.jpg",
@@ -87,7 +87,7 @@ const data_show_product = [
     tipe: "Hatchback",
     cc: "1200 cc",
     price: "Rp171 Juta",
-    src: "pageDetail/detail-agya.html",
+    src: "/detail-agya.html",
   },
 ];
 

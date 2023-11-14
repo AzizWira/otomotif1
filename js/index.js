@@ -66,7 +66,7 @@ const data_show_product = [
     image: "assets/mobil-yaris-cross.jpg",
     alt: "toyota yaris cross",
     name: "YARIS CROSS",
-    tipe: "Hatchback",
+    tipe: "SUV",
     cc: "1500 cc",
     price: "Rp353 Juta",
     src: "/detail-yarisCross",

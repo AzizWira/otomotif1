@@ -44,7 +44,7 @@ const data_product = [
     image: "../assets/mobil-yaris-cross.jpg",
     alt: "Toyota Yaris Cross",
     title: "YARIS CROSS",
-    desc: "Hatchback | 1500 cc",
+    desc: "SUV | 1500 cc",
     price: "353 Juta",
   },
   {

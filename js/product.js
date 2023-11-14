@@ -4,7 +4,7 @@ const data_product = [
     image: "../assets/mobil-alphard.jpg",
     alt: "Toyota Alphard",
     title: "ALPHARD",
-    desc: "MPV | 2500 cc",
+    desc: "MPV | 2494 cc",
     price: "1.382 Miliar",
   },
   {
@@ -28,7 +28,7 @@ const data_product = [
     image: "../assets/mobil-innova.jpg",
     alt: "Toyota Innova",
     title: "INNOVA",
-    desc: "MPV | 2000 cc",
+    desc: "MPV | 2393 cc",
     price: "385 Juta",
   },
   {
@@ -44,7 +44,7 @@ const data_product = [
     image: "../assets/mobil-yaris-cross.jpg",
     alt: "Toyota Yaris Cross",
     title: "YARIS CROSS",
-    desc: "SUV | 1500 cc",
+    desc: "SUV | 1496 cc",
     price: "353 Juta",
   },
   {
@@ -52,7 +52,7 @@ const data_product = [
     image: "../assets/mobil-yaris.jpg",
     alt: "Toyota Yaris",
     title: "YARIS",
-    desc: "Hatchback | 1946 cc",
+    desc: "Hatchback | 1496 cc",
     price: "349 Juta",
   },
   {
@@ -60,7 +60,7 @@ const data_product = [
     image: "../assets/mobil-agya.jpg",
     alt: "Toyota Agya",
     title: "AGYA",
-    desc: "Hatchback | 1200 cc",
+    desc: "Hatchback | 1198 cc",
     price: "171 Juta",
   },
   {
@@ -68,7 +68,7 @@ const data_product = [
     image: "../assets/mobil-veloz.jpg",
     alt: "Toyota Veloz",
     title: "VELOZ",
-    desc: "MPV | 1500 cc",
+    desc: "MPV | 1496 cc",
     price: "299 Juta",
   },
   {
@@ -76,7 +76,7 @@ const data_product = [
     image: "../assets/mobil-avanza.jpg",
     alt: "Toyota Avanza",
     title: "AVANZA",
-    desc: "MPV | 1500 cc",
+    desc: "MPV | 1329 cc",
     price: "245 Juta",
   },
   {
@@ -84,7 +84,7 @@ const data_product = [
     image: "../assets/mobil-raize.jpg",
     alt: "Toyota Raize",
     title: "RAIZE",
-    desc: "SUV | 1200 cc",
+    desc: "SUV | 998 cc",
     price: "241 Juta",
   },
   {

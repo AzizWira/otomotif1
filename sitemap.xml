@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Sitemap untuk halaman utama -->
+    <url>
+        <loc>https://www.toyotanasmocojateng.com/</loc>
+        <lastmod>2023-01-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Sitemap untuk halaman produk -->
+    <url>
+        <loc>https://www.toyotanasmocojateng.com/produk</loc>
+        <lastmod>2023-01-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Tambahkan entri untuk setiap produk atau halaman lainnya -->
+    <url>
+        <loc>https://www.toyotanasmocojateng.com/detail-alphard</loc>
+        <lastmod>2023-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.toyotanasmocojateng.com/detail-fortuner</loc>
+        <lastmod>2023-01-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <!-- Tambahkan entri lainnya sesuai kebutuhan -->
+</urlset>

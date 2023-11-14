@@ -180,19 +180,19 @@
   }
 
   .text-type-car {
-    font-size: 18px;
-  }
-
-  .car-price {
-    font-size: 18px;
-  }
-
-  .text-type-car p {
     font-size: 16px;
   }
 
+  .car-price {
+    font-size: 14px;
+  }
+
+  .title-type-car p {
+    font-size: 14px;
+  }
+
   .title-type-car .icon {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 

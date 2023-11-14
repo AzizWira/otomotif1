@@ -340,15 +340,19 @@
   }
 
   .model-car {
-    font-size: 18px;
-  }
-
-  .desc-car p {
     font-size: 16px;
   }
 
+  .price-car{
+    font-size: 14px;
+  }
+
+  .desc-car p {
+    font-size: 14px;
+  }
+
   .desc-car .icon {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 

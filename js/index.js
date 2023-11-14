@@ -87,7 +87,7 @@ const data_show_product = [
     tipe: "Hatchback",
     cc: "1200 cc",
     price: "Rp171 Juta",
-    src: "/detail-agya.html",
+    src: "/detail-agya",
   },
 ];
 

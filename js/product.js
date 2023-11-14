@@ -112,7 +112,7 @@ function filterProducts(selectedProduct) {
 
   const fillProduct = filteredProducts.map(
     (data) => `
-        <div class="card-product-car" onclick="window.location.href = '../pageDetail/detail-${data.type}.html';">
+        <div class="card-product-car" onclick="window.location.href = '/detail-${data.type}';">
           <img src="${data.image}" alt="${data.alt}" class="img-car" />
           <p class="text-type-car">${data.title}</p>
           <p class="car-price">Mulai : ${data.price}</p>
